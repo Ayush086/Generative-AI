@@ -1,0 +1,24 @@
+# core libraries
+langchain
+langchain-core
+
+# OpenAI integration
+langchain-openai
+openai
+
+# anthropic integration
+langchain-anthropic
+
+# gemini (PaLM) integration
+langchain-google-genai
+google-generativeai
+
+# huggingface integration
+langchain-huggingface
+huggingface-hub
+transformers
+
+# basic needs
+python-dotenv
+numpy 
+scikit-learn

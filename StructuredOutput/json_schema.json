@@ -1,0 +1,23 @@
+{
+    "title": "student",
+    "description": "student schema",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "age": {
+            "type": "number"
+        },
+        "isStudent": {
+            "type": "boolean"
+        },
+        "subjects": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": ["name", "age", "isStudent", "subjects"]
+}
