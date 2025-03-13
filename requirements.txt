@@ -1,6 +1,7 @@
 # core libraries
 langchain
 langchain-core
+grandalf  # for graph algorithms
 
 # OpenAI integration
 langchain-openai
