@@ -20,5 +20,3 @@ query_embedding = embedding.embed_query(query)
 
 similarity_scores = cosine_similarity([query_embedding], doc_embeddings)
 print(similarity_scores[0])
-
-print(sorted(list(enumerate(scores)), key=lambda x: x[1], reverse=True))
