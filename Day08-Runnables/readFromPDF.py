@@ -35,3 +35,11 @@ prompt = f"Based on the following text, answer the question: {question}\n\n{retr
 answer = llm.invoke(prompt)
 
 print(answer.content)
+
+
+## retrievalQAChain ##
+from langchain.chains import RetrievalQA
+
+qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
+output = qa_chain.run(question)
+print("Answer: ", output)
